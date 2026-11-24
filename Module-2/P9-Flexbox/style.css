@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    background-color: #ddd;
+    padding: 15px;
+    gap: 10px;
+    min-height: 100px;
+}
+
+.box {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Flex Direction */
+.direction {
+    flex-direction: row;
+}
+
+/* Justify Content */
+.justify {
+    justify-content: space-around;
+}
+
+/* Align Items */
+.align {
+    align-items: center;
+    height: 150px;
+}
+
+.tall {
+    padding: 35px 20px;
+}
+
+/* Flex Wrap */
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* Flex Grow */
+.grow .box {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
